@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'models/user_model.dart';
 
 const apiKey =
-    "0e023798f7f25e816cc260a0561741a4d079f01d9831287353da17b951b28191";
+    "";
 
 class NetworkHelper {
   List<UserModel> decodeUser(String responseBody) {
